@@ -1,0 +1,116 @@
+.groups__content{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.groups__content_aside{
+    width: 25%;
+}
+
+.groups__content_aside__content{
+    width: 12.5%;
+    height: 350px;
+    background-color: white;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+    padding: 20px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 10 ; /* Stay at the top */
+    left: 1;
+}
+
+.linked_groups{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.linked_groups button{
+    border: none;
+    width: 90%;
+    margin: 5px;
+    font-size: 0.9rem;
+    background-color: #effdf5;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.linked_groups button:hover{
+    background-color: #c3f1d6;
+}
+
+.group_monthly_guards{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.group_monthly_guards button{
+    border: none;
+    width: 90%;
+    margin: 5px;
+    font-size: 0.9rem;
+    background-color: #effdf5;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.group_monthly_guards button:hover{
+    background-color: #c3f1d6;
+}
+
+.groups_content_current_guards{
+    background-color: white;
+    width: 73%;
+    min-height: 300px;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.groups__content_today_guards{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.groups__content__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.groups__content hr{
+    margin: 0px;
+    color: #9cb694;
+}
+
+.groups__content__title button{
+    border: none;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 3px 10px;
+    transition: all 0.3s;
+}
+
+.groups__content__title button i{
+    color: green;
+    margin-right: 5px;
+}
+
+.groups__content__title button:hover{
+    background-color: #c3f1d6;
+}
+
+
+
+
+

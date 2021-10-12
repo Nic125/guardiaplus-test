@@ -1,0 +1,185 @@
+.profile{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.profile__content{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__card{
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d9f0d1;
+    width: 60%;
+    min-height: 350px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile__photo{
+    position: relative;
+    width: 35%;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+
+}
+
+.profile__image img{
+    position: absolute;
+    width: 130px;
+    margin: 0px auto;
+    left: 0;
+    margin-left: -5px;
+}
+
+.profile__image{
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 3px solid #cfe7c6;
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profile__photo p{
+    margin: 0px;
+}
+
+.profile_location{
+    color: rgb(197, 186, 186);
+}
+
+.custom-file-upload{
+    border: none;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    background-color:#dbf5e6;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.custom-file-upload i{
+    font-size: 1.4rem;
+    position: absolute;
+    color: green;
+    top: 0;
+    left: 0;
+    margin-left: 9px;
+    margin-top: 4px;
+}
+
+.custom-file-upload:hover{
+    background-color: #c3f1d6;
+}
+
+.profile__data{
+    width: 60%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.profile__data p{
+    margin: 0px;
+    font-size: 0.9rem;
+    margin: 10px;
+}
+
+.profile__edit{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.profile__edit button{
+    border: none;
+    background-color:#dbf5e6;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.profile__edit button:hover{
+    background-color: #c3f1d6;
+}
+
+.profile__hospitals{
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d9f0d1;
+    width: 35%;
+    min-height: 350px;
+    padding: 20px 30px;
+}
+
+.profile__hospitals_table{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.profile__hospitals_table table{
+    text-align: left;
+}
+
+.profile__hospitals_table table thead tr th{
+    font-size: 0.9rem;
+}
+
+.profile__hospitals_table table tbody tr td{
+    font-size: 0.9rem;
+}
+
+.profile__hospitals_table table button{
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.profile__hospitals_table table button:hover{
+    background-color: #c3f1d6;
+}
+
+.profile__monthly_details{
+    margin: auto;
+    width: 97.5%;
+    margin-top: 20px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+}
+
+.profile__hospitals_options{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__hospitals_options button{
+    border: none;
+    background-color: white;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    transition: all 0.3s;
+    padding: 5px 10px;
+}
+
+.profile__hospitals_options button:hover{
+    background-color: #c3f1d6;
+}

@@ -1,0 +1,48 @@
+.personal_input_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.personal_input_title button{
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.personal_input_title button i{
+    margin-right: 5px;
+}
+
+.personal_input_title button:hover{
+    background-color: #c3f1d6;
+}
+
+.personal_input hr{
+    margin: 5px;
+}
+
+.personal_input_table{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.personal_input_table table{
+    text-align: left;
+}
+
+.personal_input_edit{
+    text-align: right;
+}
+
+.personal_input_table table button{
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.personal_input_table table button:hover{
+    background-color: #c3f1d6;
+}

@@ -1,0 +1,95 @@
+.guard_form{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    left: 0px;
+    z-index: 10;
+}
+
+.guard_form_content{
+    width: 400px;
+    min-height: 180px;
+    background-color: white;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #d9f0d1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.5), 
+}
+
+.guard_form_content hr{
+    margin: 0px;
+}
+
+.guard_form_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.guard_form__form_time{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.guard_form__form_time label{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.guard_form__form_time input{
+    width: 33% !important;
+}
+
+.guard_form_title h6 i{
+    margin-right: 5px;
+}
+
+.guard_form__form form{
+    text-align: left;
+    padding: 20px;
+}
+
+.guard_form__form_type{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.guard_form__form_type select{
+    width: 100%;
+    height: 30px;
+}
+
+.guard_form__form form label{
+    font-size: 0.9rem;
+}
+
+.guard_form__form form input{
+    width: 100%;
+}
+
+.guard_form__form_buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.guard_form__form_buttons button{
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 3px 10px;
+    transition: all 0.3s;
+}
+
+.guard_form__form_buttons button:hover{
+    background-color: #c3f1d6;
+}

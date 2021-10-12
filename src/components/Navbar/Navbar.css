@@ -1,0 +1,33 @@
+.navbar__home{
+    background-color: white !important;
+    border-bottom: 1px solid #d9f0d1;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.container-fluid{
+    width: 60%;
+}
+
+.navbar__logo{
+    margin-left: 20px;
+    width: 90px;
+    margin-right: 20px;
+}
+
+.navbar__links a{
+    text-decoration: none;
+}
+
+.navbar__logout{
+    border: none;
+    background-color: white;
+    transition: all 0.3s;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+.navbar__logout:hover{
+    background-color: #c3f1d6;
+}

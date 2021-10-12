@@ -1,0 +1,48 @@
+.departments_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.departments_title button{
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.departments_title button i{
+    margin-right: 5px;
+}
+
+.departments_title button:hover{
+    background-color: #c3f1d6;
+}
+
+.departments hr{
+    margin: 5px;
+}
+
+.departments_table{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.departments_table table{
+    text-align: left;
+}
+
+.department_edit{
+    text-align: right;
+}
+
+.departments_table table button{
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.departments_table table button:hover{
+    background-color: #c3f1d6;
+}

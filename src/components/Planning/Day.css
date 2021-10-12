@@ -1,0 +1,45 @@
+.planning_month__day{
+    width: 100%;
+    margin: 10px 0px;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.planning_month__date{
+    width: 10%;
+    height: 80px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.planning_month__date h3, h6{
+    margin: 0px;
+    color: green;
+}
+
+.planning_month__date__selected{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.planning_month__date__add{
+    float: right;
+    width: 10%;
+}
+
+.planning_month__date__add button{
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.3s;
+    padding: 5px 10px;
+}
+
+.planning_month__date__add button:hover{
+    background-color: #c3f1d6;
+}

@@ -1,0 +1,17 @@
+.personal__item{
+    width: 90px;
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid #d9f0d1;
+    background-color: #edf5ea;
+    border-radius: 5px;
+}
+
+.personal__item p{
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
+.personal__item__profesion{
+    font-size: 0.7rem !important;
+}

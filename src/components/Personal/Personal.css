@@ -1,0 +1,61 @@
+.personal{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal__filter{
+    width: 30%;
+    padding: 20px;
+    height: 280px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #d9f0d1;
+}
+
+.personal__filter p{
+    font-size: 0.9rem;
+}
+
+.personal__filter select{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.personal__table{
+    margin: auto;
+    width: 65%;
+    padding: 20px;
+    background-color: white;
+    overflow-y: scroll;
+    min-height: 600px;
+    border-radius: 3px;
+    border: 1px solid #d9f0d1;
+}
+
+.personal__table table tbody tr td{
+    text-align: left;
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+
+.personal__table__edit{
+    text-align: right !important;
+}
+
+.personal__table__edit button{
+    border: none;
+    background-color:transparent;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.personal__table__edit button:hover{
+    background-color: #dbf5e6;
+}

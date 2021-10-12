@@ -1,0 +1,16 @@
+.messages_posts{
+    width: 73%;
+}
+
+.messages_post_content{
+    width: 100%;
+}
+
+.post_box_photo{
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.post_box_photo img{
+    width: 100%;
+}

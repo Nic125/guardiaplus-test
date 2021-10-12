@@ -1,0 +1,30 @@
+.aside_options button{
+    width: 90%;
+    margin: 8px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: transparent;
+    transition: all 0.3s;
+    text-align: left;
+}
+
+.aside_options button i{
+    margin-right: 10px;
+}
+
+.aside_options button:hover{
+    background-color: #c3f1d6;
+}
+
+.aside_options_select{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.aside_options_select select{
+    width: 80%;
+    font-size: 0.9rem;
+    margin: 10px;
+}

@@ -1,0 +1,79 @@
+.home__user_box{
+    background-color: white;
+    width: 100%;
+    max-height: 400px;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.home__user_box hr{
+    margin: 10px;
+    color: #9cb694;
+}
+
+.user_box__image img{
+    position: absolute;
+    width: 90px;
+    margin: 0px auto;
+    left: 0;
+    margin-left: -5px;
+}
+
+.user_box__image{
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 3px solid #cfe7c6;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.user_box__photo{
+    position: relative;
+    width: 100%;
+}
+
+.home__user_box_info p{
+    margin: 0px;
+}
+
+.home__user_box_info__prof{
+    font-size: 0.8rem;
+}
+
+.home__user_box_info p i{
+    font-size: 0.9rem;
+}
+
+.home__user_box_options{
+    margin-top: 10px;
+}
+
+.home__user_box_options button{
+    margin: 5px;
+    width: 90%;
+    border: none;
+    font-size: 0.9rem;
+    color: #108558;
+    border-radius: 3px;
+    background-color: #f2fcee;
+    transition: all 0.3s;
+}
+
+.home__user_box_options button:hover{
+    background-color: #c3f1d6;
+}
+
+.home__user__next_guard{
+    width: 95%;
+    border: 1px solid #d9f0d1;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #f1f8ef;
+    border-radius: 3px;
+    padding: 10px;
+}

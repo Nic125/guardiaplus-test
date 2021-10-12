@@ -1,0 +1,36 @@
+.post_comments{
+    width: 100%;
+    text-align: left;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+}
+
+.post_comments_comment{
+    display: flex;
+}
+
+.post_comments_comment_photo{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: 2px solid rgb(215, 238, 215);
+    border-radius: 100px;
+}
+
+.post_comments_comment_photo img{
+    width: 40px;
+    margin-left: 0px;
+}
+
+.post_comments_comment_content{
+    width: 90%;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f3f8f1;
+}
+
+.post_comments_comment_content p{
+    margin: 0px;
+    font-size: 0.9rem;
+}

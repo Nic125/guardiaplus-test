@@ -1,0 +1,81 @@
+.today_guard{
+    width: 45%;
+    border: 1px solid #d9f0d1;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(241, 238, 238);
+}
+
+.today_guard__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.today_guard__title h6{
+    color: green;
+    margin: 0px;
+}
+
+.today_guard__title button{
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+.today_guard__title button i{
+    margin: 0px;
+    color: green;
+    margin-top: 10px;
+}
+
+.today_guard__title button:hover{
+    background-color: #c3f1d6;
+}
+
+.today_guard hr{
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #9cb694;
+}
+
+.today_guard__photo{
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 3px solid #cfe7c6;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    margin: 0px;
+}
+
+.today_guard__photo img{
+    position: absolute;
+    width: 70px;
+    margin: 0px auto;
+    left: 0;
+    margin-left: -5px;
+}
+
+.today_guard__personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.today_guard__data p{
+    margin: 0px;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+.today_guard__data{
+    text-align: left;
+    margin-left: 20px;
+}

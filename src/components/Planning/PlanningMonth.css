@@ -1,0 +1,19 @@
+
+.planning_month h6{
+    color: black;
+}
+
+.planning_month_title{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 17px;
+    box-shadow: 0px 0px 10px rgb(207, 204, 204);
+}
+
+.planning_month__days{
+    padding: 20px;
+}

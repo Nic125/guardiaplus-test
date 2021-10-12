@@ -1,0 +1,22 @@
+.home{
+    margin: 0px auto;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__aside{
+    width: 25%; 
+}
+
+.home__aside_content{
+    width: 12.5%;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 10 ; /* Stay at the top */
+    left: 1;
+}
+
+
+

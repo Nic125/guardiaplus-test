@@ -1,0 +1,39 @@
+.delete_hospital{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    left: 0px;
+    z-index: 10;
+}
+
+.delete_hospital_content{
+    width: 400px;
+    min-height: 20px;
+    background-color: white;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #d9f0d1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.5), 
+}
+
+.delete_hospital_options button{
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #c3f1d6;
+    transition: all 0.3s;
+}
+
+.delete_hospital_options button:hover{
+    background-color: #a0d8b7;
+}

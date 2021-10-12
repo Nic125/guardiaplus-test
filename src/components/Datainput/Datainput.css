@@ -1,0 +1,65 @@
+.data_input{
+    margin: 0px auto;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data_input_aside{
+    width: 35%;
+    height: 470px;
+    background-color: white;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.data_input__content{
+    background-color: white;
+    border: 1px solid #d9f0d1;
+    border-radius: 5px;
+    padding: 20px;
+    width: 63%;
+    height: 600px;
+}
+
+.data_input_title{
+    text-align: left;
+}
+
+.data_input_title h6{
+    margin: 0px;
+}
+
+.data_input_title p{
+    margin: 0px;
+    font-size: 0.8rem;
+}
+
+.data_input_title_button{
+    text-align: end;
+}
+
+.data_input_title hr{
+    color: #9cb694;
+}
+
+.data_input_title button{
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 3px 10px;
+    transition: all 0.3s;
+}
+
+.data_input_title button i{
+    color: green;
+    margin-right: 5px;
+}
+
+.data_input_title button:hover{
+    background-color: #c3f1d6;
+}

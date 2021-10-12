@@ -1,0 +1,84 @@
+.home__groups{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d9f0d1;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.home__groups hr{
+    margin: 0px;
+    color: #9cb694;
+    margin-bottom: 10px;
+}
+
+.home__groups_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.home__groups_title button{
+    border: none;
+    background-color: transparent;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.home__groups_title button i{
+    color: green;
+}
+
+.home__groups_title button:hover{
+    background-color: #c3f1d6;
+}
+
+.home_groups_message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+
+.home_groups_message button{
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    height: 30px;
+    transition: all 0.3s;
+}
+
+.home_groups_message button:hover{
+    background-color: #c3f1d6;
+}
+
+.home_groups_message p{
+    margin: 0px;
+    font-size: 0.8rem;
+}
+
+.home_groups_message{
+    padding: 10px;
+}
+
+.home__groups_title_last{
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.home__groups__search{
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.home__groups__search:hover{
+    background-color: #c3f1d6;
+}

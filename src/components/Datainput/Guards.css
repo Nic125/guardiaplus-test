@@ -1,0 +1,48 @@
+.guards_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.guards_title button{
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.guards_title button i{
+    margin-right: 5px;
+}
+
+.guards_title button:hover{
+    background-color: #c3f1d6;
+}
+
+.guards hr{
+    margin: 5px;
+}
+
+.guards_table{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.guards_table table{
+    text-align: left;
+}
+
+.guards_edit{
+    text-align: right;
+}
+
+.guards_table table button{
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.guards_table table button:hover{
+    background-color: #c3f1d6;
+}

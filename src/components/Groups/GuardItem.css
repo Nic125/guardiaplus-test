@@ -1,0 +1,22 @@
+.guard_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d9f0d1;
+    margin: 5px;
+}
+
+.guard_item_date p{
+    margin: 0px;
+}
+
+.guard_item_date_extra{
+    font-size: 0.8rem;
+}
+
+.guard_item_details p{
+    margin: 0px;
+}
