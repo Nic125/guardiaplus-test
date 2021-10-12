@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/guardiaplus-test/static/css/main.7826b9f4.chunk.css",
-    "main.js": "/guardiaplus-test/static/js/main.76f01b17.chunk.js",
-    "main.js.map": "/guardiaplus-test/static/js/main.76f01b17.chunk.js.map",
+    "main.js": "/guardiaplus-test/static/js/main.b551dedc.chunk.js",
+    "main.js.map": "/guardiaplus-test/static/js/main.b551dedc.chunk.js.map",
     "runtime-main.js": "/guardiaplus-test/static/js/runtime-main.f5209ebf.js",
     "runtime-main.js.map": "/guardiaplus-test/static/js/runtime-main.f5209ebf.js.map",
     "static/js/2.7b02c999.chunk.js": "/guardiaplus-test/static/js/2.7b02c999.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.f5209ebf.js",
     "static/js/2.7b02c999.chunk.js",
     "static/css/main.7826b9f4.chunk.css",
-    "static/js/main.76f01b17.chunk.js"
+    "static/js/main.b551dedc.chunk.js"
   ]
 }
